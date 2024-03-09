@@ -2,7 +2,7 @@
 Martinez Huerta Pablo 
 Sanchez Flores Camila 
 
-PARADOJA DEL CUMPLEAÑOS 
+PARADOJA DEL CUMPLEAÑOS:
 Este programa de python hace una simulación de la paradoja del cumpleaños. El programa consta de distintas funciones que cumplen con tareas determinadas, a continuación se enlistan:
     1.Generación Aleatoria de Cumpleaños: La función generar_cumpleaños(n) genera una lista de n cumpleaños aleatorios, representados como números enteros entre 1 y 365 (ignorando los años bisiestos para simplificar).
 
@@ -22,7 +22,7 @@ Los parametros que se pueden ajustar son:
 
 El código se ejecuta desde la terminal con estando dentro del directorio ~/MATE II/MATE_PROYECTO1 con el comando python3 cumpleanos.py
 
-CALCULADORA DE NORMA
+CALCULADORA DE NORMA:
 Este programa en Python proporciona una función llamada norma para calcular la norma p o la norma euclidiana de un vector representado como una lista de números.
 Funcionalidades
 
@@ -38,3 +38,24 @@ Parámetros Ajustables
 
 El programa se ejecuta con el comando pyhton3 norma.py
 
+GENERADOR GRAFICAS:
+Este programa genera gráficas de la métrica en función del ancho de banda utilizando los parámetros proporcionados. 
+La métrica se calcula según la siguiente fórmula:
+
+Métrica = 256 * ((K1 * Ancho_de_Banda) / (K4 + REL))
+
+Donde:
+
+    K1, K2, K3, K4, K5: son parámetros definidos en el programa.
+    Delay: es el retardo en microsegundos.
+    REL: es la relación.
+    Ancho_de_Banda: varía de 1 a 1000 Mbps.
+
+-Uso:
+
+Para ejecutar el programa y generar la gráfica de la métrica en función del ancho de banda:
+python3 generadorGraficas.py
+
+- Requisitos
+
+El programa utiliza la biblioteca matplotlib para generar la gráfica. 
